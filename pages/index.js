@@ -8,11 +8,8 @@ export class App extends Component {
     return (
       <div>
         <Head>
-          <title>首頁 ｜ DOREBON</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
+          <title>首頁 ｜ bitplay</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           {/* facebook  SEO */}
           {/* <meta property="og:image" content="https://taiwancanhelp.us/taiwancanhelp-og.png" />
           <meta property="og:image:width" content="1200" />
@@ -32,18 +29,12 @@ export class App extends Component {
           `}
         </style>
         <div className="menu-link">
-          <Link
-            href={process.env.BACKEND_URL + "/about"}
-            as={process.env.BACKEND_URL + "/about"}
-          >
+          <Link href={process.env.BACKEND_URL + "/about"} as={process.env.BACKEND_URL + "/about"}>
             <a>click me go to About Page</a>
           </Link>
         </div>
         <div className="menu-link">
-          <Link
-            href={process.env.BACKEND_URL + "/manon"}
-            as={process.env.BACKEND_URL + "/manon"}
-          >
+          <Link href={process.env.BACKEND_URL + "/manon"} as={process.env.BACKEND_URL + "/manon"}>
             <a>click me go to About Page</a>
           </Link>
         </div>
