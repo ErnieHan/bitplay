@@ -423,7 +423,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/di
 
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap);"]);
 // Module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 13px;\n  letter-spacing: 1.5px;\n}\n\nbody {\n  margin: 0;\n  font-family: \"Lato\", -apple-system, BlinkMacSystemFont, \"微軟正黑體\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\",\n    \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background: #fff;\n  color: #6c6c6c;\n}\n\n.menu-link {\n  margin-bottom: 1rem;\n}\n\n.menu-link a {\n  color: black;\n}\n", "",{"version":3,"sources":["/Users/Ernie/Desktop/Github/dorebon/css/style.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;EACf,qBAAqB;AACvB;;AAEA;EACE,SAAS;EACT;wEACsE;EACtE,mCAAmC;EACnC,kCAAkC;EAClC,gBAAgB;EAChB,cAAc;AAChB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd","file":"style.css","sourcesContent":["@import url(\"https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap\");\n\n* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 13px;\n  letter-spacing: 1.5px;\n}\n\nbody {\n  margin: 0;\n  font-family: \"Lato\", -apple-system, BlinkMacSystemFont, \"微軟正黑體\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\",\n    \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background: #fff;\n  color: #6c6c6c;\n}\n\n.menu-link {\n  margin-bottom: 1rem;\n}\n\n.menu-link a {\n  color: black;\n}\n"]}]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 13px;\n  letter-spacing: 1.5px;\n}\n\nbody {\n  margin: 0;\n  font-family: \"Lato\", -apple-system, BlinkMacSystemFont, \"微軟正黑體\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\",\n    \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background: #fff;\n  color: #6c6c6c;\n}\n\n.menu-link {\n  margin-bottom: 1rem;\n}\n\n.menu-link a {\n  color: black;\n}\n", "",{"version":3,"sources":["/Users/Ernie/Desktop/Github/bitplay/css/style.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;EACf,qBAAqB;AACvB;;AAEA;EACE,SAAS;EACT;wEACsE;EACtE,mCAAmC;EACnC,kCAAkC;EAClC,gBAAgB;EAChB,cAAc;AAChB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd","file":"style.css","sourcesContent":["@import url(\"https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap\");\n\n* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 13px;\n  letter-spacing: 1.5px;\n}\n\nbody {\n  margin: 0;\n  font-family: \"Lato\", -apple-system, BlinkMacSystemFont, \"微軟正黑體\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\",\n    \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background: #fff;\n  color: #6c6c6c;\n}\n\n.menu-link {\n  margin-bottom: 1rem;\n}\n\n.menu-link a {\n  color: black;\n}\n"]}]);
 
 
 /***/ }),
@@ -3500,7 +3500,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
 /* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/Users/Ernie/Desktop/Github/dorebon/pages/_app.js";
+var _jsxFileName = "/Users/Ernie/Desktop/Github/bitplay/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -3527,7 +3527,7 @@ function MyApp(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/Ernie/Desktop/Github/dorebon/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/Ernie/Desktop/Github/bitplay/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
