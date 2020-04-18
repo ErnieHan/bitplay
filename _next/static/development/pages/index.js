@@ -5476,6 +5476,13 @@ var App = /*#__PURE__*/function (_Component) {
       }
     });
 
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "scrollDown", function () {
+      window.scrollTo({
+        top: 300,
+        behavior: "smooth"
+      });
+    });
+
     return _this;
   }
 
@@ -5486,14 +5493,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 34,
           columnNumber: 7
         }
       }, __jsx(_src_components_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 35,
           columnNumber: 9
         }
       }), __jsx("h1", {
@@ -5501,7 +5508,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 36,
           columnNumber: 9
         }
       }, "This is Ernie NEXT website to Github"), __jsx("div", {
@@ -5509,7 +5516,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 37,
           columnNumber: 9
         }
       }, "testing"), __jsx("div", {
@@ -5517,7 +5524,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 38,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5526,14 +5533,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 39,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 40,
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
@@ -5541,7 +5548,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 43,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5550,14 +5557,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 44,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 45,
           columnNumber: 13
         }
       }, "click me go to Manon Page"))), __jsx("div", {
@@ -5565,7 +5572,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 48,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5574,14 +5581,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 49,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 50,
           columnNumber: 13
         }
       }, "click me go to Taiwan Can Help"))), __jsx("form", {
@@ -5590,7 +5597,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 53,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5600,7 +5607,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 54,
           columnNumber: 11
         }
       })), __jsx("input", {
@@ -5610,7 +5617,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 56,
           columnNumber: 9
         }
       }), __jsx("form", {
@@ -5618,7 +5625,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 57,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5627,16 +5634,25 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 58,
           columnNumber: 11
         }
-      })), __jsx("img", {
+      })), __jsx("div", {
+        className: "move-down",
+        onClick: this.scrollDown,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 9
+        }
+      }, "scroll drop"), __jsx("img", {
         src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/images/love.jpg"),
         alt: "image",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 63,
           columnNumber: 9
         }
       }));
