@@ -1,81 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./css/Header.module.css":
-/*!*******************************!*\
-  !*** ./css/Header.module.css ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./css/Header.module.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./css/Header.module.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./css/Header.module.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
-
-/***/ }),
-
-/***/ "./function/constants.js":
-/*!*******************************!*\
-  !*** ./function/constants.js ***!
-  \*******************************/
-/*! exports provided: ROOT */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROOT", function() { return ROOT; });
-var ROOT = "";
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
@@ -770,20 +694,20 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./css/Header.module.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./css/Header.module.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./src/css/Header.module.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./src/css/Header.module.css ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "/*\nYou do not need to worry about .error {} colliding with any other `.css` or\n`.module.css` files!\n*/\n\n.Header_error__GEy9l {\n  color: white;\n  background-color: pink;\n}\n\n.Header_ernie__DPOp9 {\n  font-size: 30px;\n}\n", "",{"version":3,"sources":["/Users/Ernie/Desktop/Github/bitplay/css/Header.module.css"],"names":[],"mappings":"AAAA;;;CAGC;;AAED;EACE,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB","file":"Header.module.css","sourcesContent":["/*\nYou do not need to worry about .error {} colliding with any other `.css` or\n`.module.css` files!\n*/\n\n.error {\n  color: white;\n  background-color: pink;\n}\n\n.ernie {\n  font-size: 30px;\n}\n"]}]);
+exports.push([module.i, "/*\nYou do not need to worry about .error {} colliding with any other `.css` or\n`.module.css` files!\n*/\n\n.Header_error__26ATN {\n  color: white;\n  background-color: tan;\n}\n\n.Header_ernie__3YW2E {\n  font-size: 30px;\n}\n", "",{"version":3,"sources":["/Users/Ernie/Desktop/Github/bitplay/src/css/Header.module.css"],"names":[],"mappings":"AAAA;;;CAGC;;AAED;EACE,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,eAAe;AACjB","file":"Header.module.css","sourcesContent":["/*\nYou do not need to worry about .error {} colliding with any other `.css` or\n`.module.css` files!\n*/\n\n.error {\n  color: white;\n  background-color: tan;\n}\n\n.ernie {\n  font-size: 30px;\n}\n"]}]);
 // Exports
 exports.locals = {
-	"error": "Header_error__GEy9l",
-	"ernie": "Header_ernie__DPOp9"
+	"error": "Header_error__26ATN",
+	"ernie": "Header_ernie__3YW2E"
 };
 
 /***/ }),
@@ -5496,9 +5420,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/Header.module.css */ "./css/Header.module.css");
-/* harmony import */ var _css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _function_constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../function/constants */ "./function/constants.js");
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/css/Header.module.css */ "./src/css/Header.module.css");
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
 
 
 
@@ -5549,7 +5473,7 @@ var App = /*#__PURE__*/function (_Component) {
       var searchText = _this.state.searchText;
 
       if (searchText.trim().length !== 0) {
-        window.location = "".concat(_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/about?").concat(searchText);
+        window.location = "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon?").concat(searchText);
       }
     });
 
@@ -5557,32 +5481,27 @@ var App = /*#__PURE__*/function (_Component) {
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(App, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      console.log("ROOT", _function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"]);
-    }
-  }, {
     key: "render",
     value: function render() {
       return __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 27,
           columnNumber: 7
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 28,
           columnNumber: 9
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 29,
           columnNumber: 11
         }
       }, "\u9996\u9801 \uFF5C bitplay"), __jsx("meta", {
@@ -5591,15 +5510,15 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 30,
           columnNumber: 11
         }
       })), __jsx("h1", {
-        className: _css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.error,
+        className: _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.error,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 40,
           columnNumber: 9
         }
       }, "This is Ernie NEXT website to Github"), __jsx("div", {
@@ -5607,7 +5526,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 41,
           columnNumber: 9
         }
       }, "testing"), __jsx("div", {
@@ -5615,22 +5534,22 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 42,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "".concat(_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/about"),
+        href: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/about"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 43,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 44,
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
@@ -5638,30 +5557,30 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 47,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "".concat(_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon"),
+        href: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 48,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 49,
           columnNumber: 13
         }
-      }, "click me go to About Page"))), __jsx("form", {
+      }, "click me go to Manon Page"))), __jsx("form", {
         onSubmit: this.handleSearch,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 52,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5671,7 +5590,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 53,
           columnNumber: 11
         }
       })));
@@ -5684,7 +5603,83 @@ var App = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ "./src/css/Header.module.css":
+/*!***********************************!*\
+  !*** ./src/css/Header.module.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./src/css/Header.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./src/css/Header.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./src/css/Header.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/function/constants.js":
+/*!***********************************!*\
+  !*** ./src/function/constants.js ***!
+  \***********************************/
+/*! exports provided: ROOT */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROOT", function() { return ROOT; });
+var ROOT = "";
+
+
+/***/ }),
+
+/***/ 2:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************/
@@ -5707,5 +5702,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
