@@ -13,7 +13,9 @@ export class App extends Component {
     });
   };
   handleSearch = (event) => {
+    event.preventdefault();
     const { searchText } = this.state;
+    alert(event.key);
     if (event.key === "Enter" && searchText.trim().length !== 0) {
       window.location = `/about?${encodeURIComponent(searchText.trim())}`;
     }
@@ -45,12 +47,14 @@ export class App extends Component {
             <a>click me go to About Page</a>
           </Link>
         </div>
-        <input
-          type="search"
-          value={this.state.searchText}
-          onChange={this.handleChangeSearch}
-          onKeyPress={this.handleSearch}
-        />
+        <form>
+          <input
+            type="search"
+            value={this.state.searchText}
+            onChange={this.handleChangeSearch}
+            // onKeyPress={this.handleSearch}
+          />
+        </form>
       </div>
     );
   }
