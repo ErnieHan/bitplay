@@ -5418,11 +5418,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/css/Header.module.css */ "./src/css/Header.module.css");
-/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../src/css/Header.module.css */ "./src/css/Header.module.css");
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
+/* harmony import */ var _src_components_Header__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/components/Header */ "./src/components/Header.jsx");
 
 
 
@@ -5473,7 +5472,7 @@ var App = /*#__PURE__*/function (_Component) {
       var searchText = _this.state.searchText;
 
       if (searchText.trim().length !== 0) {
-        window.location = "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon?").concat(searchText);
+        window.location = "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/manon?").concat(searchText);
       }
     });
 
@@ -5490,35 +5489,19 @@ var App = /*#__PURE__*/function (_Component) {
           lineNumber: 27,
           columnNumber: 7
         }
-      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      }, __jsx(_src_components_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28,
           columnNumber: 9
         }
-      }, __jsx("title", {
+      }), __jsx("h1", {
+        className: _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.error,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29,
-          columnNumber: 11
-        }
-      }, "\u9996\u9801 \uFF5C bitplay"), __jsx("meta", {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1, maximum-scale=1",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30,
-          columnNumber: 11
-        }
-      })), __jsx("h1", {
-        className: _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.error,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40,
           columnNumber: 9
         }
       }, "This is Ernie NEXT website to Github"), __jsx("div", {
@@ -5526,7 +5509,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 30,
           columnNumber: 9
         }
       }, "testing"), __jsx("div", {
@@ -5534,23 +5517,23 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 31,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/about",
-        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/about"),
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/about"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 32,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 33,
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
@@ -5558,23 +5541,23 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 36,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/manon",
-        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon"),
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/manon"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 37,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 38,
           columnNumber: 13
         }
       }, "click me go to Manon Page"))), __jsx("form", {
@@ -5582,7 +5565,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 41,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5592,16 +5575,16 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 42,
           columnNumber: 11
         }
       })), __jsx("img", {
-        src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/images/love.jpg"),
+        src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/images/love.jpg"),
         alt: "image",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 44,
           columnNumber: 9
         }
       }));
@@ -5611,6 +5594,106 @@ var App = /*#__PURE__*/function (_Component) {
   return App;
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 /* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/Header.jsx":
+/*!***********************************!*\
+  !*** ./src/components/Header.jsx ***!
+  \***********************************/
+/*! exports provided: Header, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "/Users/Ernie/Desktop/Github/bitplay/src/components/Header.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var Header = /*#__PURE__*/function (_Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Header, _Component);
+
+  var _super = _createSuper(Header);
+
+  function Header() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
+
+    return _super.apply(this, arguments);
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
+    key: "render",
+    value: function render() {
+      var title = this.props.title;
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 7
+        }
+      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, __jsx("title", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 11
+        }
+      }, title), __jsx("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1, maximum-scale=1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 11
+        }
+      }), __jsx("link", {
+        rel: "icon",
+        href: "/images/favicon.png",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 11
+        }
+      })));
+    }
+  }]);
+
+  return Header;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+Header.defaultProps = {
+  title: "首頁"
+};
+/* harmony default export */ __webpack_exports__["default"] = (Header);
 
 /***/ }),
 
@@ -5690,7 +5773,7 @@ var ROOT = "";
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************/
@@ -5713,5 +5796,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
