@@ -4,6 +4,20 @@ import Head from "next/head";
 import styles from "../css/Header.module.css";
 
 export class App extends Component {
+  state = {
+    searchText: "",
+  };
+  handleChangeSearch = (event) => {
+    this.setState({
+      searchText: event.target.value,
+    });
+  };
+  handleSearch = (event) => {
+    const { searchText } = this.state;
+    if (event.key === "Enter" && searchText.trim().length !== 0) {
+      window.location = `/about?${encodeURIComponent(searchText.trim())}`;
+    }
+  };
   render() {
     return (
       <div>
@@ -21,15 +35,6 @@ export class App extends Component {
         </Head>
         <h1 className={styles.error}>This is Ernie NEXT website to Github</h1>
         <div className="ernie">testing</div>
-        <style>
-          {`
-            .ernie {
-              font-size: 24px;
-              background: red;
-              color: white;
-            }
-          `}
-        </style>
         <div className="menu-link">
           <Link href={process.env.BACKEND_URL + "/about"} as={process.env.BACKEND_URL + "/about"}>
             <a>click me go to About Page</a>
@@ -40,6 +45,12 @@ export class App extends Component {
             <a>click me go to About Page</a>
           </Link>
         </div>
+        <input
+          type="search"
+          value={this.state.searchText}
+          onChange={this.handleChangeSearch}
+          onKeyPress={this.handleSearch}
+        />
       </div>
     );
   }
