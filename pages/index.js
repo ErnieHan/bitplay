@@ -16,13 +16,13 @@ export class App extends Component {
     event.preventDefault();
     const { searchText } = this.state;
     if (searchText.trim().length !== 0) {
-      alert("您是否要搜尋:", searchText);
       window.location = `/about?${searchText}`;
     }
   };
   render() {
     return (
       <div>
+        {console.log(process.env)}
         <Head>
           <title>首頁 ｜ bitplay</title>
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -38,12 +38,12 @@ export class App extends Component {
         <h1 className={styles.error}>This is Ernie NEXT website to Github</h1>
         <div className="ernie">testing</div>
         <div className="menu-link">
-          <Link href={process.env.BACKEND_URL + "/about"} as={process.env.BACKEND_URL + "/about"}>
+          <Link href={process.env.BACKEND_URL + "/about"}>
             <a>click me go to About Page</a>
           </Link>
         </div>
         <div className="menu-link">
-          <Link href={process.env.BACKEND_URL + "/manon"} as={process.env.BACKEND_URL + "/manon"}>
+          <Link href={process.env.BACKEND_URL + "/manon"}>
             <a>click me go to About Page</a>
           </Link>
         </div>

@@ -5,13 +5,6 @@
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
-  exportPathMap: function () {
-    return {
-      "/": { page: "/" },
-      "/about": { page: "/about" },
-      "/manon": { page: "/manon" },
-    };
-  },
   assetPrefix: !debug ? "/bitplay" : "",
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
