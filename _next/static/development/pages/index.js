@@ -5596,7 +5596,7 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       })), __jsx("img", {
-        src: "/images/love.jpg",
+        src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/images/love.jpg"),
         alt: "image",
         __self: this,
         __source: {
