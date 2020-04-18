@@ -5603,13 +5603,40 @@ var App = /*#__PURE__*/function (_Component) {
           lineNumber: 47,
           columnNumber: 11
         }
+      })), __jsx("input", {
+        type: "text",
+        pattern: "[0-9]*",
+        placeholder: "\u8ACB\u8F38\u5165\u6578\u5B57",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 9
+        }
+      }), __jsx("form", {
+        action: "javascript:return true",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }, __jsx("input", {
+        type: "number",
+        placeholder: "\u8ACB\u8F38\u5165\u6578\u5B57",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 11
+        }
       })), __jsx("img", {
         src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/images/love.jpg"),
         alt: "image",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 53,
           columnNumber: 9
         }
       }));
