@@ -25,6 +25,8 @@ export class App extends Component {
           {`
             .ernie {
               font-size: 24px;
+              background: red;
+              color: white;
             }
           `}
         </style>
