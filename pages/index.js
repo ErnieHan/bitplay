@@ -1,28 +1,30 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../css/Header.module.css";
+import styles from "../src/css/Header.module.css";
+import { ROOT } from "../src/function/constants";
 
 export class App extends Component {
   state = {
-    searchText: "",
+    searchText: ""
   };
-  handleChangeSearch = (event) => {
+
+  handleChangeSearch = event => {
     this.setState({
-      searchText: event.target.value,
+      searchText: event.target.value
     });
   };
-  handleSearch = (event) => {
+
+  handleSearch = event => {
     event.preventDefault();
     const { searchText } = this.state;
     if (searchText.trim().length !== 0) {
-      window.location = `/about?${searchText}`;
+      window.location = `${ROOT}/manon?${searchText}`;
     }
   };
   render() {
     return (
       <div>
-        {console.log(process.env)}
         <Head>
           <title>首頁 ｜ bitplay</title>
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -38,18 +40,19 @@ export class App extends Component {
         <h1 className={styles.error}>This is Ernie NEXT website to Github</h1>
         <div className="ernie">testing</div>
         <div className="menu-link">
-          <Link href={process.env.BACKEND_URL + "/about"}>
+          <Link href={`/about`} as={`${ROOT}/about`}>
             <a>click me go to About Page</a>
           </Link>
         </div>
         <div className="menu-link">
-          <Link href={process.env.BACKEND_URL + "/manon"}>
-            <a>click me go to About Page</a>
+          <Link href={`/manon`} as={`${ROOT}/manon`}>
+            <a>click me go to Manon Page</a>
           </Link>
         </div>
         <form onSubmit={this.handleSearch}>
           <input type="search" value={this.state.searchText} onChange={this.handleChangeSearch} />
         </form>
+        <img src="../src/images/love.jpg" alt="image" />
       </div>
     );
   }
