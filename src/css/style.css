@@ -27,6 +27,16 @@ body {
   color: black;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 input {
   appearance: none;
   border-radius: 0;
@@ -35,10 +45,35 @@ input {
   outline: 0;
 }
 
-.ernie {
-  font-size: 20px;
+.main-ob1 {
+  width: 100%;
+  height: 100vh;
+  background: #000104;
+  color: rgb(89, 154, 212);
+  position: relative;
 }
 
-.manon {
-  font-size: 24px;
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.title {
+  max-width: 990px;
+  padding: 112px 15px 0 15px;
+  margin: 0 auto;
+  font-size: 64px;
+  animation: dropdown 1.5s forwards;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 48px;
+  }
 }

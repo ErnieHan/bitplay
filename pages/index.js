@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import Head from "next/head";
 import styles from "../src/css/Header.module.css";
 import { ROOT } from "../src/function/constants";
+import Header from "../src/components/Header";
 
 export class App extends Component {
   state = {
@@ -25,18 +25,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Head>
-          <title>首頁 ｜ bitplay</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          {/* facebook  SEO */}
-          {/* <meta property="og:image" content="https://taiwancanhelp.us/taiwancanhelp-og.png" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
-          <meta property="og:site_name" content="Taiwan Can Help" />
-          <meta property="og:url" content="https://erniehan.github.io/dorebon/" />
-          <meta property="og:title" content="Taiwan Can Help" />
-          <meta property="og:locale" content="zh-TW" /> */}
-        </Head>
+        <Header />
         <h1 className={styles.error}>This is Ernie NEXT website to Github</h1>
         <div className="ernie">testing</div>
         <div className="menu-link">
@@ -52,7 +41,7 @@ export class App extends Component {
         <form onSubmit={this.handleSearch}>
           <input type="search" value={this.state.searchText} onChange={this.handleChangeSearch} />
         </form>
-        <img src="../src/images/love.jpg" alt="image" />
+        <img src={`${ROOT}/images/love.jpg`} alt="image" />
       </div>
     );
   }
