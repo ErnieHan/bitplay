@@ -5528,12 +5528,12 @@ var App = /*#__PURE__*/function (_Component) {
     });
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "handleSearch", function (event) {
-      event.preventdefault();
+      event.preventDefault();
       var searchText = _this.state.searchText;
-      alert(event.key);
 
-      if (event.key === "Enter" && searchText.trim().length !== 0) {
-        window.location = "/about?".concat(encodeURIComponent(searchText.trim()));
+      if (searchText.trim().length !== 0) {
+        alert("您是否要搜尋:", searchText);
+        window.location = "/about?".concat(searchText);
       }
     });
 
@@ -5566,7 +5566,7 @@ var App = /*#__PURE__*/function (_Component) {
         }
       }, "\u9996\u9801 \uFF5C bitplay"), __jsx("meta", {
         name: "viewport",
-        content: "initial-scale=1.0, width=device-width",
+        content: "width=device-width, initial-scale=1, maximum-scale=1",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -5638,6 +5638,7 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("form", {
+        onSubmit: this.handleSearch,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -5647,8 +5648,7 @@ var App = /*#__PURE__*/function (_Component) {
       }, __jsx("input", {
         type: "search",
         value: this.state.searchText,
-        onChange: this.handleChangeSearch // onKeyPress={this.handleSearch}
-        ,
+        onChange: this.handleChangeSearch,
         __self: this,
         __source: {
           fileName: _jsxFileName,
