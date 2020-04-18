@@ -5560,12 +5560,37 @@ var App = /*#__PURE__*/function (_Component) {
           lineNumber: 38,
           columnNumber: 13
         }
-      }, "click me go to Manon Page"))), __jsx("form", {
-        onSubmit: this.handleSearch,
+      }, "click me go to Manon Page"))), __jsx("div", {
+        className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41,
+          columnNumber: 9
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/taiwancanhelp",
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_10__["ROOT"], "/taiwancanhelp"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, "click me go to Taiwan Can Help"))), __jsx("form", {
+        onSubmit: this.handleSearch,
+        action: "javascript:return true",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5575,7 +5600,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 47,
           columnNumber: 11
         }
       })), __jsx("img", {
@@ -5584,7 +5609,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 49,
           columnNumber: 9
         }
       }));
