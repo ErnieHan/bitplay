@@ -9,7 +9,8 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
-      "/manon": { page: "/manon" }
+      "/manon": { page: "/manon" },
+      "/taiwancanhelp": { page: "/taiwancanhelp" }
     };
   },
   assetPrefix: !debug ? "https://erniehan.github.io/bitplay/" : "",
