@@ -12,7 +12,7 @@ module.exports = {
       "/manon": { page: "/manon" },
     };
   },
-  assetPrefix: !debug ? "" : "",
+  assetPrefix: !debug ? "/bitplay" : "",
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');

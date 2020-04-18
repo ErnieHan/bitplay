@@ -5537,12 +5537,12 @@ var App = /*#__PURE__*/function (_Component) {
           lineNumber: 24,
           columnNumber: 9
         }
-      }, "\n            .ernie {\n              font-size: 24px;\n            }\n          "), __jsx("div", {
+      }, "\n            .ernie {\n              font-size: 24px;\n              background: red;\n              color: white;\n            }\n          "), __jsx("div", {
         className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 33,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -5551,14 +5551,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 34,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 35,
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
@@ -5566,7 +5566,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 38,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -5575,14 +5575,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 39,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 40,
           columnNumber: 13
         }
       }, "click me go to About Page"))));
