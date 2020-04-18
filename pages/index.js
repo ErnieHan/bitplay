@@ -13,11 +13,11 @@ export class App extends Component {
     });
   };
   handleSearch = (event) => {
-    event.preventdefault();
+    event.preventDefault();
     const { searchText } = this.state;
-    alert(event.key);
-    if (event.key === "Enter" && searchText.trim().length !== 0) {
-      window.location = `/about?${encodeURIComponent(searchText.trim())}`;
+    if (searchText.trim().length !== 0) {
+      alert("您是否要搜尋:", searchText);
+      window.location = `/about?${searchText}`;
     }
   };
   render() {
@@ -25,7 +25,7 @@ export class App extends Component {
       <div>
         <Head>
           <title>首頁 ｜ bitplay</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
           {/* facebook  SEO */}
           {/* <meta property="og:image" content="https://taiwancanhelp.us/taiwancanhelp-og.png" />
           <meta property="og:image:width" content="1200" />
@@ -47,13 +47,8 @@ export class App extends Component {
             <a>click me go to About Page</a>
           </Link>
         </div>
-        <form>
-          <input
-            type="search"
-            value={this.state.searchText}
-            onChange={this.handleChangeSearch}
-            // onKeyPress={this.handleSearch}
-          />
+        <form onSubmit={this.handleSearch}>
+          <input type="search" value={this.state.searchText} onChange={this.handleChangeSearch} />
         </form>
       </div>
     );
