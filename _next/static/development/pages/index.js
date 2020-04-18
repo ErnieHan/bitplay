@@ -5596,7 +5596,7 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       })), __jsx("img", {
-        src: "../src/images/love.jpg",
+        src: "/images/love.jpg",
         alt: "image",
         __self: this,
         __source: {
