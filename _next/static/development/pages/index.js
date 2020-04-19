@@ -5505,18 +5505,21 @@ var App = /*#__PURE__*/function (_Component) {
         }
       }), __jsx("h1", {
         className: _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.error,
+        style: {
+          padding: "15px"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36,
           columnNumber: 9
         }
-      }, "This is Ernie NEXT website to Github"), __jsx("div", {
+      }, "This is Ernie NEXT.js website to Github"), __jsx("div", {
         className: "ernie",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 39,
           columnNumber: 9
         }
       }, "testing"), __jsx("div", {
@@ -5524,7 +5527,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 40,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5533,14 +5536,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 41,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 42,
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
@@ -5548,7 +5551,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 45,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5557,14 +5560,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 46,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 47,
           columnNumber: 13
         }
       }, "click me go to Manon Page"))), __jsx("div", {
@@ -5572,7 +5575,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 50,
           columnNumber: 9
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -5581,14 +5584,14 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 51,
           columnNumber: 11
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 52,
           columnNumber: 13
         }
       }, "click me go to Taiwan Can Help"))), __jsx("form", {
@@ -5597,7 +5600,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 55,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5607,7 +5610,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 56,
           columnNumber: 11
         }
       })), __jsx("input", {
@@ -5617,7 +5620,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 58,
           columnNumber: 9
         }
       }), __jsx("form", {
@@ -5625,7 +5628,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 59,
           columnNumber: 9
         }
       }, __jsx("input", {
@@ -5634,7 +5637,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 60,
           columnNumber: 11
         }
       })), __jsx("div", {
@@ -5643,7 +5646,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 62,
           columnNumber: 9
         }
       }, "scroll drop"), __jsx("img", {
@@ -5652,7 +5655,7 @@ var App = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 65,
           columnNumber: 9
         }
       }));
