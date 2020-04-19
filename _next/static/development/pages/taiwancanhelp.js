@@ -950,7 +950,7 @@ var Taiwancanhelp = /*#__PURE__*/function (_Component) {
           lineNumber: 10,
           columnNumber: 11
         }
-      }, "WHO can help ?")));
+      }, "taiwan can help")));
     }
   }]);
 
