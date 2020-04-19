@@ -3,11 +3,15 @@ import Link from "next/link";
 import styles from "../src/css/Header.module.css";
 import { ROOT } from "../src/function/constants";
 import Header from "../src/components/Header";
+import NoSSR from "react-no-ssr";
+import Fetch from "../src/components/Fetch";
 
 export class App extends Component {
   state = {
     searchText: ""
   };
+
+  async componentDidMount() {}
 
   handleChangeSearch = event => {
     this.setState({
@@ -24,8 +28,9 @@ export class App extends Component {
   };
 
   scrollDown = () => {
+    const y = this.refs["image"].offsetTop;
     window.scrollTo({
-      top: 300,
+      top: y,
       behavior: "smooth"
     });
   };
@@ -33,9 +38,10 @@ export class App extends Component {
     return (
       <div>
         <Header />
-        <h1 className={styles.error} style={{ padding: "15px" }}>
+        <h1 className={styles.error} style={{ padding: "15px", textAlign: "center", fontWeight: "300" }}>
           This is Ernie NEXT.js website to Github
         </h1>
+        <h1 style={{ padding: "15px", fontSize: "20px", fontWeight: "300", textAlign: "right" }}>#Taiwancanhelp</h1>
         <div className="ernie">testing</div>
         <div className="menu-link">
           <Link href={`/about`} as={`${ROOT}/about`}>
@@ -62,10 +68,29 @@ export class App extends Component {
         <div className="move-down" onClick={this.scrollDown}>
           scroll drop
         </div>
-        <img src={`${ROOT}/images/love.jpg`} alt="image" />
+        <style jsx>{`
+          .address {
+            padding: 15px;
+          }
+          .address-item {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #6c6c6c;
+          }
+        `}</style>
+        <NoSSR>
+          <Fetch />
+        </NoSSR>
+        <img src={`${ROOT}/images/love.jpg`} ref="image" alt="image" />
       </div>
     );
   }
+}
+
+export async function getStaticProps() {
+  return {
+    props: {}
+  };
 }
 
 export default App;
