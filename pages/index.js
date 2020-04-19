@@ -22,11 +22,20 @@ export class App extends Component {
       window.location = `${ROOT}/manon?${searchText}`;
     }
   };
+
+  scrollDown = () => {
+    window.scrollTo({
+      top: 300,
+      behavior: "smooth"
+    });
+  };
   render() {
     return (
       <div>
         <Header />
-        <h1 className={styles.error}>This is Ernie NEXT website to Github</h1>
+        <h1 className={styles.error} style={{ padding: "15px" }}>
+          This is Ernie NEXT.js website to Github
+        </h1>
         <div className="ernie">testing</div>
         <div className="menu-link">
           <Link href={`/about`} as={`${ROOT}/about`}>
@@ -50,6 +59,9 @@ export class App extends Component {
         <form action="javascript:return true">
           <input type="number" placeholder="請輸入數字" />
         </form>
+        <div className="move-down" onClick={this.scrollDown}>
+          scroll drop
+        </div>
         <img src={`${ROOT}/images/love.jpg`} alt="image" />
       </div>
     );

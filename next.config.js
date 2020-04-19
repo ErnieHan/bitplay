@@ -10,7 +10,8 @@ module.exports = {
       "/": { page: "/" },
       "/about": { page: "/about" },
       "/manon": { page: "/manon" },
-      "/taiwancanhelp": { page: "/taiwancanhelp" }
+      "/taiwancanhelp": { page: "/taiwancanhelp" },
+      "/404": { page: "/404" }
     };
   },
   assetPrefix: !debug ? "https://erniehan.github.io/bitplay/" : "",
