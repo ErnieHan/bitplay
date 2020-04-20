@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = (function(a,b){return {"/":[a,b],"/index":[a,b],"/manon":[a],"/taiwancanhelp":[a],"/week1":[a]}}("static\u002Fchunks\u002F12b0d9953a9f4cc899526983c5c1254d899fe84a.1f5ea70b64089b9151c1.js","static\u002Fcss\u002Fb9e97ea0210ad5221fe0.css"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
