@@ -296,7 +296,7 @@ var Page404 = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F404&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2F404.js ***!
   \**********************************************************************************************************************************/
@@ -319,5 +319,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=404.js.map
