@@ -11,6 +11,7 @@ module.exports = {
       "/about": { page: "/about" },
       "/manon": { page: "/manon" },
       "/taiwancanhelp": { page: "/taiwancanhelp" },
+      "/week1": { page: "/week1" },
       "/404": { page: "/404" }
     };
   },
