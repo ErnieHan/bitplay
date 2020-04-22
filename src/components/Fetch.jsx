@@ -24,7 +24,7 @@ export class Fetch extends Component {
   render() {
     return (
       <div>
-        swiper
+        <h1>推薦飾品</h1>
         <div className="swiper-wrap">
           <div class="swiper-container">
             <div class="swiper-wrapper">
