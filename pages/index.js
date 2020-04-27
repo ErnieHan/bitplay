@@ -58,6 +58,9 @@ export class App extends Component {
             <a>click me go to Taiwan Can Help</a>
           </Link>
         </div>
+        <div className="menu-link">
+          <a href="./taiwancanhelp">Taiwan can help</a>
+        </div>
         <form onSubmit={this.handleSearch} action="javascript:return true">
           <input type="search" value={this.state.searchText} onChange={this.handleChangeSearch} />
         </form>

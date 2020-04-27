@@ -10,8 +10,12 @@ export class Header extends Component {
 
   componentDidMount() {
     const searchText = window.location.search.replace("?", "");
-    console.log(searchText === "%");
-    if (searchText !== "%") {
+    if (searchText === "%") {
+      window.history.pushState(null, null, "/week1?%25");
+      this.setState({
+        title: "%"
+      });
+    } else {
       this.setState({
         title: decodeURIComponent(searchText)
       });
@@ -19,8 +23,10 @@ export class Header extends Component {
   }
 
   handleSubmit = event => {
-    if (this.state.value.trim() !== "") {
-      window.location = `${ROOT}/week1?${encodeURIComponent(this.state.value.trim())}`;
+    const { value } = this.state;
+    if (value.trim() !== "") {
+      const searchText = value.trim();
+      window.location = `${ROOT}/week1?${encodeURIComponent(searchText)}`;
     }
   };
 
@@ -31,7 +37,7 @@ export class Header extends Component {
   };
 
   render() {
-    const { title } = this.props;
+    const { title, description } = this.props;
     return (
       <React.Fragment>
         <style jsx>{`
@@ -63,6 +69,9 @@ export class Header extends Component {
           <title>{title}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
           <link rel="icon" href={`${ROOT}/images/favicon.png`} />
+          <meta name="description" content={description} />
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={description} />
           {/* ----- facebook  SEO ----- */}
           {/* <meta property="og:image" content="https://taiwancanhelp.us/taiwancanhelp-og.png" />
           <meta property="og:image:width" content="1200" />
@@ -71,6 +80,12 @@ export class Header extends Component {
           <meta property="og:url" content="https://erniehan.github.io/dorebon/" />
           <meta property="og:title" content="Taiwan Can Help" />
           <meta property="og:locale" content="zh-TW" /> */}
+          <script
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=1184783651695145&autoLogAppEvents=1"
+          ></script>
         </Head>
         <header>
           <form action="javascript:return true" onSubmit={this.handleSubmit}>
@@ -90,7 +105,8 @@ export class Header extends Component {
 }
 
 Header.defaultProps = {
-  title: "首頁"
+  title: "首頁",
+  description: "bitplay can help"
 };
 
 export default Header;

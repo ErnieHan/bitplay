@@ -1,28 +1,36 @@
 import React, { Component } from "react";
 import Header from "../src/components/Header";
+import { ROOT } from "../src/function/constants";
 
 export class Week1 extends Component {
   state = {
     id: null,
     url: null,
+    resultList: [],
     isLoading: false
   };
 
-  fetchData = async () => {
+  componentDidMount() {
+    this.fetchData("10");
+  }
+
+  fetchData = async limit => {
     this.startLoading(true);
     try {
-      const response = await fetch("https://api.github.com/repos/zeit/next.js", {
-        method: "GET",
-        headers: {
-          "content-type": "application/json"
+      const response = await fetch(
+        `https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=24c9f8fe-88db-4a6e-895c-498fbc94df94&limit=${limit}`,
+        {
+          method: "GET",
+          headers: {
+            "content-type": "application/json"
+          }
         }
-      });
+      );
       if (response.ok) {
         const data = await response.json();
-        console.log(data);
+        console.log(data.result.results);
         this.setState({
-          id: data.id,
-          url: data.html_url
+          resultList: data.result.results
         });
       } else {
         throw new Error("ernie xxx");
@@ -45,12 +53,19 @@ export class Week1 extends Component {
       <div>
         <Header title={"蕃茄鐘 ｜ Week 1"} />
         <div style={{ textAlign: "center" }}>
-          <button className="fetch-button" onClick={this.fetchData}>
+          <button className="fetch-button" onClick={this.fetchData.bind(this, "20")}>
             button fetch
           </button>
-          {this.state.isLoading && <div className="loading-content">loading ...</div>}
-          <div className="fetch-id">{this.state.id}</div>
-          <div className="fetch-url">{this.state.url}</div>
+          {this.state.isLoading && (
+            <div className="loading-content">
+              <img src={`${ROOT}/images/loading.gif`} alt="loading" />
+            </div>
+          )}
+          {this.state.resultList.map((data, index) => (
+            <div key={index} className="fetch-id">
+              {data.o_tlc_agency_name} / {data.o_tlc_agency_phone}
+            </div>
+          ))}
         </div>
       </div>
     );
