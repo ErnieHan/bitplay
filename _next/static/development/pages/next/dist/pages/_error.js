@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/ernie.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/next/dist/pages/_error.js"],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
 /*!******************************************************************!*\
@@ -130,6 +130,23 @@ module.exports = _inherits;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
 /*!****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
@@ -251,21 +268,21 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fernie&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Fernie.js!./":
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fernie&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Fernie.js ***!
-  \**********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \***************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/ernie", function() {
-      var mod = __webpack_require__(/*! ./pages/ernie.js */ "./pages/ernie.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
+      var mod = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
       if(true) {
-        module.hot.accept(/*! ./pages/ernie.js */ "./pages/ernie.js", function() {
-          if(!next.router.components["/ernie"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/ernie.js */ "./pages/ernie.js")
-          next.router.update("/ernie", updatedPage)
+        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
+          if(!next.router.components["/next/dist/pages/_error"]) return
+          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
+          next.router.update("/next/dist/pages/_error", updatedPage)
         })
       }
       return mod
@@ -675,6 +692,138 @@ exports["default"] = function () {
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/pages/_error.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _head = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/head */ "./node_modules/next/dist/next-server/lib/head.js"));
+
+var statusCodes = {
+  400: 'Bad Request',
+  404: 'This page could not be found',
+  405: 'Method Not Allowed',
+  500: 'Internal Server Error'
+};
+
+function _getInitialProps(_ref) {
+  var res = _ref.res,
+      err = _ref.err;
+  var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+  return {
+    statusCode: statusCode
+  };
+}
+/**
+* `Error` component used for handling errors.
+*/
+
+
+var Error = /*#__PURE__*/function (_react$default$Compon) {
+  _inherits(Error, _react$default$Compon);
+
+  var _super = _createSuper(Error);
+
+  function Error() {
+    _classCallCheck(this, Error);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(Error, [{
+    key: "render",
+    value: function render() {
+      var statusCode = this.props.statusCode;
+      var title = this.props.title || statusCodes[statusCode] || 'An unexpected error has occurred';
+      return _react["default"].createElement("div", {
+        style: styles.error
+      }, _react["default"].createElement(_head["default"], null, _react["default"].createElement("title", null, statusCode, ": ", title)), _react["default"].createElement("div", null, _react["default"].createElement("style", {
+        dangerouslySetInnerHTML: {
+          __html: 'body { margin: 0 }'
+        }
+      }), statusCode ? _react["default"].createElement("h1", {
+        style: styles.h1
+      }, statusCode) : null, _react["default"].createElement("div", {
+        style: styles.desc
+      }, _react["default"].createElement("h2", {
+        style: styles.h2
+      }, title, "."))));
+    }
+  }]);
+
+  return Error;
+}(_react["default"].Component);
+
+exports["default"] = Error;
+Error.displayName = 'ErrorPage';
+Error.getInitialProps = _getInitialProps;
+Error.origGetInitialProps = _getInitialProps;
+var styles = {
+  error: {
+    color: '#000',
+    background: '#fff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    height: '100vh',
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  desc: {
+    display: 'inline-block',
+    textAlign: 'left',
+    lineHeight: '49px',
+    height: '49px',
+    verticalAlign: 'middle'
+  },
+  h1: {
+    display: 'inline-block',
+    borderRight: '1px solid rgba(0, 0, 0,.3)',
+    margin: 0,
+    marginRight: '20px',
+    padding: '10px 23px 10px 0',
+    fontSize: '24px',
+    fontWeight: 500,
+    verticalAlign: 'top'
+  },
+  h2: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    lineHeight: 'inherit',
+    margin: 0,
+    padding: 0
+  }
+};
+
+/***/ }),
+
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
@@ -686,129 +835,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./pages/ernie.js":
-/*!************************!*\
-  !*** ./pages/ernie.js ***!
-  \************************/
-/*! exports provided: config, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _this = undefined,
-    _jsxFileName = "/Users/Ernie/Desktop/Github/bitplay/pages/ernie.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-var config = {
-  amp: "hybrid"
-};
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 5
-    }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 7
-    }
-  }, __jsx("title", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, "Ernie AMP Page")), __jsx("h1", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 7
-    }
-  }, "The Dog (Hybrid AMP Page)"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, __jsx("a", {
-    href: "./ernie?amp=1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }, "AMP Version")), __jsx("p", {
-    className: "caption",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "Woooooooooooof"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "Wafer donut candy souffl\xE9 icing. Marzipan gummi bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet roll sweet roll topping chocolate bar drag\xE9e pudding chocolate cake. Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing macaroon bonbon cupcake apple pie candy canes biscuit candy canes. Jujubes jelly liquorice toffee gingerbread. Candy tootsie roll macaroon chocolate bar icing sugar plum pie. Icing gummies chocolate bar chocolate marzipan bonbon cookie chocolate tart. Caramels danish halvah croissant. Cheesecake cookie tootsie roll ice cream. Powder dessert carrot cake muffin tiramisu lemon drops liquorice topping brownie. Souffl\xE9 chocolate cake croissant cupcake jelly."), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 7
-    }
-  }, "Muffin gummies dessert cheesecake candy canes. Candy canes danish cotton candy tart dessert powder bear claw marshmallow. Muffin chocolate marshmallow danish. Chocolate bar biscuit cake tiramisu. Topping sweet brownie jujubes powder marzipan. Croissant wafer bonbon chupa chups cake cake marzipan caramels jujubes. Cupcake cheesecake sweet roll marshmallow lollipop danish jujubes jelly icing. Apple pie chupa chups lollipop jelly-o cheesecake jelly beans cake dessert. Tootsie roll tootsie roll bonbon pastry croissant gummi bears cake cake. Fruitcake sugar plum halvah gingerbread cookie pastry chupa chups wafer lemon drops. Marshmallow liquorice oat cake lollipop. Lemon drops oat cake halvah liquorice danish powder cupcake souffl\xE9. Cake tart topping jelly-o tart sugar plum. Chocolate bar cookie wafer tootsie roll candy cotton candy toffee pie donut."), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 7
-    }
-  }, "Ice cream lollipop marshmallow tiramisu jujubes croissant. Bear claw lemon drops marzipan candy bonbon cupcake powder. Candy canes cheesecake bear claw pastry cake donut jujubes. Icing tart jelly-o souffl\xE9 bonbon apple pie. Cheesecake pie chupa chups toffee powder. Bonbon lemon drops carrot cake pudding candy halvah cheesecake lollipop cupcake. Pudding marshmallow fruitcake. Gummi bears bonbon chupa chups lemon drops. Wafer dessert gummies gummi bears biscuit donut tiramisu gummi bears brownie. Tootsie roll liquorice bonbon cookie. Sesame snaps chocolate bar cake croissant chupa chups cheesecake gingerbread tiramisu jelly. Cheesecake ice cream muffin lollipop gummies. Sesame snaps jelly beans sweet bear claw tart."), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 7
-    }
-  }, "Sweet topping chupa chups chocolate cake jelly-o liquorice danish. Pastry jelly beans apple pie dessert pastry lemon drops marzipan gummies. Jelly beans macaroon bear claw cotton candy. Toffee sweet lollipop toffee oat cake. Jelly-o oat cake fruitcake chocolate bar sweet. Lemon drops gummies chocolate cake lollipop bear claw croissant danish icing. Chocolate bar donut brownie chocolate cake lemon drops chocolate bar. Cake fruitcake pudding chocolate apple pie. Brownie tiramisu chocolate macaroon lemon drops wafer souffl\xE9 jujubes icing. Cheesecake tiramisu cake macaroon tart lollipop donut. Gummi bears drag\xE9e pudding bear claw. Muffin cake cupcake candy canes. Souffl\xE9 candy canes biscuit. Macaroon gummies danish."), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 7
-    }
-  }, "Cupcake cupcake tart. Cotton candy danish candy canes oat cake ice cream candy canes powder wafer. Chocolate sesame snaps oat cake drag\xE9e cheesecake. Sesame snaps marshmallow topping liquorice cookie marshmallow. Liquorice pudding chocolate bar. Cake powder brownie fruitcake. Carrot cake dessert marzipan sugar plum cupcake cheesecake pastry. Apple pie macaroon ice cream fruitcake apple pie cookie. Tootsie roll ice cream oat cake cheesecake donut cheesecake bear claw. Sesame snaps marzipan jelly beans chocolate tootsie roll. Chocolate bar donut drag\xE9e ice cream biscuit. Pie candy canes muffin candy canes ice cream tiramisu."));
-});
-
-/***/ }),
-
-/***/ 4:
-/*!**************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fernie&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Fernie.js ***!
-  \**************************************************************************************************************************************/
+/***/ 3:
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fernie&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Fernie.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fernie&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fpages%2Fernie.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2FErnie%2FDesktop%2FGithub%2Fbitplay%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
 
 
 /***/ }),
@@ -824,5 +858,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=ernie.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=_error.js.map
