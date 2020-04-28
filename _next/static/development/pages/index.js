@@ -17717,19 +17717,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/css/Header.module.css */ "./src/css/Header.module.css");
-/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
-/* harmony import */ var _src_components_Header__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/components/Header */ "./src/components/Header.jsx");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-no-ssr */ "./node_modules/react-no-ssr/index.js");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _src_components_Fetch__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/components/Fetch */ "./src/components/Fetch.jsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/css/Header.module.css */ "./src/css/Header.module.css");
+/* harmony import */ var _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
+/* harmony import */ var _src_components_Header__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/components/Header */ "./src/components/Header.jsx");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-no-ssr */ "./node_modules/react-no-ssr/index.js");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _src_components_Fetch__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/components/Fetch */ "./src/components/Fetch.jsx");
 
 
 
@@ -17739,8 +17737,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/Ernie/Desktop/Github/bitplay/pages/index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
 
@@ -17785,7 +17782,7 @@ var App = /*#__PURE__*/function (_Component) {
       var searchText = _this.state.searchText;
 
       if (searchText.trim().length !== 0) {
-        window.location = "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_12__["ROOT"], "/manon?").concat(searchText);
+        window.location = "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon?").concat(searchText);
       }
     });
 
@@ -17817,14 +17814,14 @@ var App = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return __jsx("div", {
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39,
           columnNumber: 7
         }
-      }, __jsx(_src_components_Header__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, __jsx(_src_components_Header__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        title: "\u5C11\u5E74A | \u4FBF\u7576\u7814\u7A76\u6240",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17832,26 +17829,25 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 9
         }
       }), __jsx("h1", {
+        className: _src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.error,
         style: {
           padding: "15px",
           textAlign: "center",
           fontWeight: "300"
         },
-        className: "jsx-3389900631" + " " + (_src_css_Header_module_css__WEBPACK_IMPORTED_MODULE_11___default.a.error || ""),
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41,
           columnNumber: 9
         }
-      }, "This is Ernie NEXT.js website to Github"), __jsx("h1", {
+      }, "\u5C11\u5E74\u4FBF\u7576\u6240"), __jsx("h1", {
         style: {
           padding: "15px",
           fontSize: "20px",
           fontWeight: "300",
           textAlign: "right"
         },
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17859,7 +17855,7 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 9
         }
       }, "#Taiwancanhelp"), __jsx("div", {
-        className: "jsx-3389900631" + " " + "ernie",
+        className: "ernie",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17867,16 +17863,16 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 9
         }
       }, "testing"), __jsx("div", {
-        className: "jsx-3389900631" + " " + "menu-link",
+        className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46,
           columnNumber: 9
         }
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/about",
-        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_12__["ROOT"], "/about"),
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/about"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17884,7 +17880,6 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       }, __jsx("a", {
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17892,16 +17887,16 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 13
         }
       }, "click me go to About Page"))), __jsx("div", {
-        className: "jsx-3389900631" + " " + "menu-link",
+        className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51,
           columnNumber: 9
         }
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/manon",
-        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_12__["ROOT"], "/manon"),
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/manon"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17909,7 +17904,6 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       }, __jsx("a", {
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17917,16 +17911,16 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 13
         }
       }, "click me go to Manon Page"))), __jsx("div", {
-        className: "jsx-3389900631" + " " + "menu-link",
+        className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56,
           columnNumber: 9
         }
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/taiwancanhelp",
-        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_12__["ROOT"], "/taiwancanhelp"),
+        as: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/taiwancanhelp"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17934,7 +17928,6 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       }, __jsx("a", {
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17942,7 +17935,7 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 13
         }
       }, "click me go to Taiwan Can Help"))), __jsx("div", {
-        className: "jsx-3389900631" + " " + "menu-link",
+        className: "menu-link",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17951,7 +17944,6 @@ var App = /*#__PURE__*/function (_Component) {
         }
       }, __jsx("a", {
         href: "./taiwancanhelp",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17961,7 +17953,6 @@ var App = /*#__PURE__*/function (_Component) {
       }, "Taiwan can help")), __jsx("form", {
         onSubmit: this.handleSearch,
         action: "javascript:return true",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17972,7 +17963,6 @@ var App = /*#__PURE__*/function (_Component) {
         type: "search",
         value: this.state.searchText,
         onChange: this.handleChangeSearch,
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17983,7 +17973,6 @@ var App = /*#__PURE__*/function (_Component) {
         type: "text",
         pattern: "[0-9]*",
         placeholder: "\u8ACB\u8F38\u5165\u6578\u5B57",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -17992,7 +17981,6 @@ var App = /*#__PURE__*/function (_Component) {
         }
       }), __jsx("form", {
         action: "javascript:return true",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18002,7 +17990,6 @@ var App = /*#__PURE__*/function (_Component) {
       }, __jsx("input", {
         type: "number",
         placeholder: "\u8ACB\u8F38\u5165\u6578\u5B57",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18010,40 +17997,29 @@ var App = /*#__PURE__*/function (_Component) {
           columnNumber: 11
         }
       })), __jsx("div", {
+        className: "move-down",
         onClick: this.scrollDown,
-        className: "jsx-3389900631" + " " + "move-down",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71,
           columnNumber: 9
         }
-      }, "scroll drop"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        id: "3389900631",
-        __self: this
-      }, ".address.jsx-3389900631{padding:15px;}.address-item.jsx-3389900631{margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid #6c6c6c;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9Fcm5pZS9EZXNrdG9wL0dpdGh1Yi9iaXRwbGF5L3BhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXlFb0IsQUFHMEIsQUFHTSxhQUZyQixNQUdzQixvQkFDWSxnQ0FDbEMiLCJmaWxlIjoiL1VzZXJzL0VybmllL0Rlc2t0b3AvR2l0aHViL2JpdHBsYXkvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgc3R5bGVzIGZyb20gXCIuLi9zcmMvY3NzL0hlYWRlci5tb2R1bGUuY3NzXCI7XG5pbXBvcnQgeyBST09UIH0gZnJvbSBcIi4uL3NyYy9mdW5jdGlvbi9jb25zdGFudHNcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIi4uL3NyYy9jb21wb25lbnRzL0hlYWRlclwiO1xuaW1wb3J0IE5vU1NSIGZyb20gXCJyZWFjdC1uby1zc3JcIjtcbmltcG9ydCBGZXRjaCBmcm9tIFwiLi4vc3JjL2NvbXBvbmVudHMvRmV0Y2hcIjtcblxuZXhwb3J0IGNsYXNzIEFwcCBleHRlbmRzIENvbXBvbmVudCB7XG4gIHN0YXRlID0ge1xuICAgIHNlYXJjaFRleHQ6IFwiXCJcbiAgfTtcblxuICBhc3luYyBjb21wb25lbnREaWRNb3VudCgpIHt9XG5cbiAgaGFuZGxlQ2hhbmdlU2VhcmNoID0gZXZlbnQgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgc2VhcmNoVGV4dDogZXZlbnQudGFyZ2V0LnZhbHVlXG4gICAgfSk7XG4gIH07XG5cbiAgaGFuZGxlU2VhcmNoID0gZXZlbnQgPT4ge1xuICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7XG4gICAgY29uc3QgeyBzZWFyY2hUZXh0IH0gPSB0aGlzLnN0YXRlO1xuICAgIGlmIChzZWFyY2hUZXh0LnRyaW0oKS5sZW5ndGggIT09IDApIHtcbiAgICAgIHdpbmRvdy5sb2NhdGlvbiA9IGAke1JPT1R9L21hbm9uPyR7c2VhcmNoVGV4dH1gO1xuICAgIH1cbiAgfTtcblxuICBzY3JvbGxEb3duID0gKCkgPT4ge1xuICAgIGNvbnN0IHkgPSB0aGlzLnJlZnNbXCJpbWFnZVwiXS5vZmZzZXRUb3A7XG4gICAgd2luZG93LnNjcm9sbFRvKHtcbiAgICAgIHRvcDogeSxcbiAgICAgIGJlaGF2aW9yOiBcInNtb290aFwiXG4gICAgfSk7XG4gIH07XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPEhlYWRlciAvPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPXtzdHlsZXMuZXJyb3J9IHN0eWxlPXt7IHBhZGRpbmc6IFwiMTVweFwiLCB0ZXh0QWxpZ246IFwiY2VudGVyXCIsIGZvbnRXZWlnaHQ6IFwiMzAwXCIgfX0+XG4gICAgICAgICAgVGhpcyBpcyBFcm5pZSBORVhULmpzIHdlYnNpdGUgdG8gR2l0aHViXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDxoMSBzdHlsZT17eyBwYWRkaW5nOiBcIjE1cHhcIiwgZm9udFNpemU6IFwiMjBweFwiLCBmb250V2VpZ2h0OiBcIjMwMFwiLCB0ZXh0QWxpZ246IFwicmlnaHRcIiB9fT4jVGFpd2FuY2FuaGVscDwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZXJuaWVcIj50ZXN0aW5nPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVudS1saW5rXCI+XG4gICAgICAgICAgPExpbmsgaHJlZj17YC9hYm91dGB9IGFzPXtgJHtST09UfS9hYm91dGB9PlxuICAgICAgICAgICAgPGE+Y2xpY2sgbWUgZ28gdG8gQWJvdXQgUGFnZTwvYT5cbiAgICAgICAgICA8L0xpbms+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lbnUtbGlua1wiPlxuICAgICAgICAgIDxMaW5rIGhyZWY9e2AvbWFub25gfSBhcz17YCR7Uk9PVH0vbWFub25gfT5cbiAgICAgICAgICAgIDxhPmNsaWNrIG1lIGdvIHRvIE1hbm9uIFBhZ2U8L2E+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZW51LWxpbmtcIj5cbiAgICAgICAgICA8TGluayBocmVmPXtgL3RhaXdhbmNhbmhlbHBgfSBhcz17YCR7Uk9PVH0vdGFpd2FuY2FuaGVscGB9PlxuICAgICAgICAgICAgPGE+Y2xpY2sgbWUgZ28gdG8gVGFpd2FuIENhbiBIZWxwPC9hPlxuICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVudS1saW5rXCI+XG4gICAgICAgICAgPGEgaHJlZj1cIi4vdGFpd2FuY2FuaGVscFwiPlRhaXdhbiBjYW4gaGVscDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxmb3JtIG9uU3VibWl0PXt0aGlzLmhhbmRsZVNlYXJjaH0gYWN0aW9uPVwiamF2YXNjcmlwdDpyZXR1cm4gdHJ1ZVwiPlxuICAgICAgICAgIDxpbnB1dCB0eXBlPVwic2VhcmNoXCIgdmFsdWU9e3RoaXMuc3RhdGUuc2VhcmNoVGV4dH0gb25DaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlU2VhcmNofSAvPlxuICAgICAgICA8L2Zvcm0+XG4gICAgICAgIDxpbnB1dCB0eXBlPVwidGV4dFwiIHBhdHRlcm49XCJbMC05XSpcIiBwbGFjZWhvbGRlcj1cIuiri+i8uOWFpeaVuOWtl1wiIC8+XG4gICAgICAgIDxmb3JtIGFjdGlvbj1cImphdmFzY3JpcHQ6cmV0dXJuIHRydWVcIj5cbiAgICAgICAgICA8aW5wdXQgdHlwZT1cIm51bWJlclwiIHBsYWNlaG9sZGVyPVwi6KuL6Ly45YWl5pW45a2XXCIgLz5cbiAgICAgICAgPC9mb3JtPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1vdmUtZG93blwiIG9uQ2xpY2s9e3RoaXMuc2Nyb2xsRG93bn0+XG4gICAgICAgICAgc2Nyb2xsIGRyb3BcbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAuYWRkcmVzcyB7XG4gICAgICAgICAgICBwYWRkaW5nOiAxNXB4O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuYWRkcmVzcy1pdGVtIHtcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMXJlbTtcbiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjNmM2YzZjO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICA8Tm9TU1I+XG4gICAgICAgICAgPEZldGNoIC8+XG4gICAgICAgIDwvTm9TU1I+XG4gICAgICAgIDxpbWcgc3JjPXtgJHtST09UfS9pbWFnZXMvbG92ZS5qcGdgfSByZWY9XCJpbWFnZVwiIGFsdD1cImltYWdlXCIgLz5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFN0YXRpY1Byb3BzKCkge1xuICByZXR1cm4ge1xuICAgIHByb3BzOiB7fVxuICB9O1xufVxuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXX0= */\n/*@ sourceURL=/Users/Ernie/Desktop/Github/bitplay/pages/index.js */"), __jsx(react_no_ssr__WEBPACK_IMPORTED_MODULE_14___default.a, {
+      }), __jsx(_src_components_Fetch__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 72,
           columnNumber: 9
         }
-      }, __jsx(_src_components_Fetch__WEBPACK_IMPORTED_MODULE_15__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85,
-          columnNumber: 11
-        }
-      })), __jsx("img", {
-        src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_12__["ROOT"], "/images/love.jpg"),
+      }), __jsx("img", {
+        src: "".concat(_src_function_constants__WEBPACK_IMPORTED_MODULE_11__["ROOT"], "/images/love.jpg"),
         ref: "image",
         alt: "image",
-        className: "jsx-3389900631",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 73,
           columnNumber: 9
         }
       }));
@@ -18051,7 +18027,7 @@ var App = /*#__PURE__*/function (_Component) {
   }]);
 
   return App;
-}(react__WEBPACK_IMPORTED_MODULE_9__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
@@ -18127,336 +18103,146 @@ var Fetch = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var _this = this;
+
+      var products = [{
+        name1: "Cosmos「宇」",
+        name2: "18K紅色黃金青金石及紫石英硬玉戒指",
+        imgUrl: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
+        price: 4900
+      }, {
+        name1: "Cosmos「宇」",
+        name2: "18K紅色黃金青金石及紫石英硬玉戒指",
+        imgUrl: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
+        price: 4900
+      }, {
+        name1: "Cosmos「宇」",
+        name2: "18K紅色黃金青金石及紫石英硬玉戒指",
+        imgUrl: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
+        price: 4900
+      }, {
+        name1: "Cosmos「宇」",
+        name2: "18K紅色黃金青金石及紫石英硬玉戒指",
+        imgUrl: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
+        price: 4900
+      }];
       return __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 52,
           columnNumber: 7
         }
-      }, __jsx("h1", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 9
-        }
-      }, "\u63A8\u85A6\u98FE\u54C1"), __jsx("div", {
-        className: "swiper-wrap",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 9
-        }
       }, __jsx("div", {
-        "class": "swiper-container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 11
-        }
-      }, __jsx("div", {
-        "class": "swiper-wrapper",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30,
-          columnNumber: 13
-        }
-      }, __jsx("div", {
-        "class": "swiper-slide",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31,
-          columnNumber: 15
-        }
-      }, __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 17
-        }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 19
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 19
-        }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))), __jsx("div", {
-        "class": "swiper-slide",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 15
-        }
-      }, __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 17
-        }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 19
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49,
-          columnNumber: 19
-        }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))), __jsx("div", {
-        "class": "swiper-slide",
+        className: "recommend-title-content",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53,
-          columnNumber: 15
+          columnNumber: 9
         }
-      }, __jsx("div", {
+      }, __jsx("h3", {
+        className: "recommend-title",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54,
-          columnNumber: 17
+          columnNumber: 11
         }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
+      }, "\u63A8\u85A6\u98FE\u54C1")), __jsx("div", {
+        className: "swiper-wrap",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
-          columnNumber: 19
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 19
-        }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))), __jsx("div", {
-        "class": "swiper-slide",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64,
-          columnNumber: 15
+          lineNumber: 56,
+          columnNumber: 9
         }
       }, __jsx("div", {
+        className: "swiper-container",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
-          columnNumber: 17
+          lineNumber: 57,
+          columnNumber: 11
         }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
+      }, __jsx("div", {
+        className: "swiper-wrapper",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
-          columnNumber: 19
+          lineNumber: 58,
+          columnNumber: 13
         }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
+      }, products.map(function (data, index) {
+        return __jsx("div", {
+          className: "swiper-slide",
+          key: index,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 60,
+            columnNumber: 17
+          }
+        }, __jsx("div", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61,
+            columnNumber: 19
+          }
+        }, __jsx("img", {
+          src: data.imgUrl,
+          alt: data.name2,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 21
+          }
+        }), __jsx("div", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 63,
+            columnNumber: 21
+          }
+        }, data.name1), __jsx("div", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 64,
+            columnNumber: 21
+          }
+        }, data.name2), __jsx("div", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65,
+            columnNumber: 21
+          }
+        }, data.price)));
+      }))), __jsx("div", {
+        className: "swiper-button-next",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71,
-          columnNumber: 19
+          columnNumber: 11
         }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
+      }), __jsx("div", {
+        className: "swiper-button-prev",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 72,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))), __jsx("div", {
-        "class": "swiper-slide",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75,
-          columnNumber: 15
-        }
-      }, __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76,
-          columnNumber: 17
-        }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77,
-          columnNumber: 19
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82,
-          columnNumber: 19
-        }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))), __jsx("div", {
-        "class": "swiper-slide",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86,
-          columnNumber: 15
-        }
-      }, __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87,
-          columnNumber: 17
-        }
-      }, __jsx("img", {
-        src: "https://cdn.chowsangsang.com/dfs/ivCssModelImages/90871/c0b5637806ed10b7dc150986f015323d.jpg",
-        alt: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88,
-          columnNumber: 19
-        }
-      }), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92,
-          columnNumber: 19
-        }
-      }, "Cosmos\u300C\u5B87\u300D"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93,
-          columnNumber: 19
-        }
-      }, "18K\u7D05\u8272\u9EC3\u91D1\u9752\u91D1\u77F3\u53CA\u7D2B\u77F3\u82F1\u786C\u7389\u6212\u6307"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94,
-          columnNumber: 19
-        }
-      }, "HK$4900.00"))))), __jsx("div", {
-        "class": "swiper-button-next",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99,
           columnNumber: 11
         }
       }), __jsx("div", {
-        "class": "swiper-button-prev",
+        className: "swiper-pagination",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
-          columnNumber: 11
-        }
-      }), __jsx("div", {
-        "class": "swiper-pagination",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 73,
           columnNumber: 11
         }
       })));
