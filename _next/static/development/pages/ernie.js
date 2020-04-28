@@ -877,13 +877,13 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 /*!************************!*\
   !*** ./pages/ernie.js ***!
   \************************/
-/*! exports provided: config, Ernie, default */
+/*! exports provided: Ernie, config, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Ernie", function() { return Ernie; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
 /* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
@@ -907,9 +907,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var config = {
-  amp: "hybrid"
-};
 var Ernie = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Ernie, _Component);
 
@@ -928,28 +925,28 @@ var Ernie = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 7,
           columnNumber: 7
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 8,
           columnNumber: 9
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 9,
           columnNumber: 11
         }
       }, "Ernie AMP Page")), __jsx("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 11,
           columnNumber: 9
         }
       }, "The Dog (Hybrid AMP Page)"), __jsx("amp-img", {
@@ -961,7 +958,7 @@ var Ernie = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 12,
           columnNumber: 9
         }
       }), __jsx("p", {
@@ -969,14 +966,14 @@ var Ernie = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 19,
           columnNumber: 9
         }
       }, "Woooooooooooof"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 20,
           columnNumber: 9
         }
       }, "Wafer donut candy souffl\xE9 icing. Marzipan gummi bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet roll sweet roll topping chocolate bar drag\xE9e pudding chocolate cake. Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing macaroon bonbon cupcake apple pie candy canes biscuit candy canes. Jujubes jelly liquorice toffee gingerbread. Candy tootsie roll macaroon chocolate bar icing sugar plum pie. Icing gummies chocolate bar chocolate marzipan bonbon cookie chocolate tart. Caramels danish halvah croissant. Cheesecake cookie tootsie roll ice cream. Powder dessert carrot cake muffin tiramisu lemon drops liquorice topping brownie. Souffl\xE9 chocolate cake croissant cupcake jelly."));
@@ -985,6 +982,9 @@ var Ernie = /*#__PURE__*/function (_Component) {
 
   return Ernie;
 }(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
+var config = {
+  amp: true
+};
 /* harmony default export */ __webpack_exports__["default"] = (Ernie);
 
 /***/ }),
