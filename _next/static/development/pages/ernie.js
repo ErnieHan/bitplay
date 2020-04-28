@@ -131,7 +131,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 /*!************************!*\
   !*** ./pages/ernie.js ***!
   \************************/
-/*! exports provided: default, config */
+/*! exports provided: config, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -154,10 +154,10 @@ function Ernie(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 5
     }
-  }, __jsx("h3", {
+  }, isAmp ? "AMP page" : "normal HTML", __jsx("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -191,10 +191,10 @@ function Ernie(props) {
   }));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Ernie);
 var config = {
   amp: "hybrid"
 };
+/* harmony default export */ __webpack_exports__["default"] = (Ernie);
 
 /***/ }),
 
