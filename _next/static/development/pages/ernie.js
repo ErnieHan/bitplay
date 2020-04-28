@@ -877,12 +877,11 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 /*!************************!*\
   !*** ./pages/ernie.js ***!
   \************************/
-/*! exports provided: Ernie, config, default */
+/*! exports provided: config, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Ernie", function() { return Ernie; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
 /* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
@@ -893,6 +892,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _src_function_constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/function/constants */ "./src/function/constants.js");
 
 
 
@@ -904,6 +904,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
 
 
 
@@ -925,55 +927,43 @@ var Ernie = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7,
+          lineNumber: 8,
           columnNumber: 7
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8,
+          lineNumber: 9,
           columnNumber: 9
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9,
+          lineNumber: 10,
           columnNumber: 11
         }
       }, "Ernie AMP Page")), __jsx("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 9
-        }
-      }, "The Dog (Hybrid AMP Page)"), __jsx("amp-img", {
-        alt: "A view of the sea",
-        src: "https://amp.dev/static/inline-examples/images/sea.jpg",
-        width: "900",
-        height: "675",
-        layout: "responsive",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 12,
           columnNumber: 9
         }
-      }), __jsx("p", {
+      }, "The Ernie AMP PAGE (Hybrid AMP Page)"), __jsx("p", {
         className: "caption",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 13,
           columnNumber: 9
         }
       }, "Woooooooooooof"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 14,
           columnNumber: 9
         }
       }, "Wafer donut candy souffl\xE9 icing. Marzipan gummi bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet roll sweet roll topping chocolate bar drag\xE9e pudding chocolate cake. Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing macaroon bonbon cupcake apple pie candy canes biscuit candy canes. Jujubes jelly liquorice toffee gingerbread. Candy tootsie roll macaroon chocolate bar icing sugar plum pie. Icing gummies chocolate bar chocolate marzipan bonbon cookie chocolate tart. Caramels danish halvah croissant. Cheesecake cookie tootsie roll ice cream. Powder dessert carrot cake muffin tiramisu lemon drops liquorice topping brownie. Souffl\xE9 chocolate cake croissant cupcake jelly."));
@@ -982,10 +972,26 @@ var Ernie = /*#__PURE__*/function (_Component) {
 
   return Ernie;
 }(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
+
 var config = {
-  amp: true
+  amp: "hybrid"
 };
 /* harmony default export */ __webpack_exports__["default"] = (Ernie);
+
+/***/ }),
+
+/***/ "./src/function/constants.js":
+/*!***********************************!*\
+  !*** ./src/function/constants.js ***!
+  \***********************************/
+/*! exports provided: ROOT */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROOT", function() { return ROOT; });
+var ROOT = "";
+
 
 /***/ }),
 
