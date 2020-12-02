@@ -161,3 +161,10 @@ input {
 .loading-content img {
   max-width: 135px;
 }
+
+.testing-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("../../public/images/title.png");
+  background-size: cover;
+}
